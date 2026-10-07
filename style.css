@@ -125,4 +125,14 @@ h1 {
     background-color: gray;
 }
 
+@media (max-width: 900px) {
+    .contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
+@media (max-width: 600px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+}
